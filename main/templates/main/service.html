@@ -1,0 +1,130 @@
+{% extends "main/base.html" %}
+{% block content %}
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Abonent System</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">Об этом приложении</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/service">Сервис</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Контакты</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Справочники
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                        <a class="dropdown-item" href="/street">Улицы</a>
+                        <a class="dropdown-item" href="fitter.html">Слесари</a>
+                        <a class="dropdown-item" href="/amenities">Услуги</a>
+                        <a class="dropdown-item" href="/errors">Неисправности</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Коллекции
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                        <a class="dropdown-item" href="/DIREPAIR">DIREPAIR</a>
+                        <a class="dropdown-item" href="/CTREET">STREET</a>
+                        <a class="dropdown-item" href="SERVICES1.html">SERVICES</a>
+                        <a class="dropdown-item" href="abonent.html">ABONENT</a>
+                        <a class="dropdown-item" href="executor.html">EXECUTOR</a>
+                        <a class="dropdown-item" href="nachislsumma.html">NACHISLSUMMA</a>
+                        <a class="dropdown-item" href="paysumma.html">PAYSUMMA</a>
+                        <a class="dropdown-item" href="request.html">REQUEST</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Отчеты
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                        <a class="dropdown-item" href="full-width.html">Абоненты</a>
+                        <a class="dropdown-item" href="sidebar.html">Журнал начислений</a>
+                        <a class="dropdown-item" href="faq.html">Журнал оплат</a>
+                        <a class="dropdown-item" href="404.html">Ремонтные заявки</a>
+                        <a class="dropdown-item" href="pricing.html">ОСВ</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container__flex">
+
+    <div class="flex__body">
+        <h1 class="mt-4 mb-3">Сервис
+            <small>наши услуги</small>
+        </h1>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Главная</a>
+            </li>
+            <li class="breadcrumb-item active">Сервис</li>
+        </ol>
+
+
+        <img class="img-fluid rounded mb-4" alt="">
+
+
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Описание услуги 1</h4>
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Описание услуги 2</h4>
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Описание услуги 3</h4>
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Abonent System &copy; WebApp 2020</p>
+        </div>
+    </footer>
+
+    {% endblock %}

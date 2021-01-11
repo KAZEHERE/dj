@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form role="form" action="." method="post">
+         {% csrf_token %}
+          <input type="login" name="login" placeholder="Login*" autofocus="" required id="id_login">
+          <input type="password" name="password" placeholder="Пароль*" required id="id_password">
+          <button name="next_button" type="submit" >Далее</button>
+      </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+html, body{
+    height:100%;
+}
+body {
+
+  padding-top: 56px;/* Отступ сверху для фиксированного меню */
+}
+.content{
+    margin: 250px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    min-height: 100%;
+}
+.carousel-item {      /* Параметры слайдера на главной странице */
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.footer{
+    flex: 0 0 auto
+}
+.portfolio-item {     /* Отступы между карточками class="card" */
+  margin-bottom: 30px;
+}
